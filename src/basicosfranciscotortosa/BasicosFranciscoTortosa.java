@@ -16,6 +16,14 @@ public class BasicosFranciscoTortosa {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        cadenas();
     }
-    
+      public static void cadenas() {
+          //Variables String
+          String a = "¿Que tal?";
+          String b = "Soy un String en el codigo.";
+          
+          //Mostrar el texto de la clase String
+          System.out.println(a + " " + b);
+    }    
 }
